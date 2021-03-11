@@ -1,0 +1,908 @@
+.body{
+    margin: 0;
+    
+}
+.SectionParaBig{
+position: absolute;
+width: 496px;
+height: 124px;
+left: 108px;
+top: 260px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 130%;
+display: flex;
+align-items: flex-end;
+color: #000000;
+
+}
+
+.SectionParasmall{
+    position: absolute;
+width: 496px;
+height: 60px;
+left: 108px;
+top: 420px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 150%;
+display: flex;
+align-items: flex-end;
+color: #000000;
+
+}
+
+.SecBtn{
+
+ display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 40px;
+position: absolute;
+width: 172px;
+height: 43px;
+left: 108px;
+top: 530px;
+background: #F2707C;
+border-radius: 30px;
+border: none;
+color: #fff;
+font-weight: 900;
+}
+.Section1img{
+position: absolute;
+width: 600px;
+height: 420px;
+left: 690px;
+top: 184px;
+
+background: #FFFFFF;
+}
+
+
+
+
+.SectionPara{
+
+width: 599px;
+height: 112px;
+margin-left: 108px;
+margin-top: 10%;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 140%;
+color: #FFFFFF;
+}
+
+.SectionMenu{
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    height: 392px;
+    left: 0px;
+    top: 684px;
+    background: #8E7CB5;
+}
+
+
+
+
+.Content{
+    
+width: 492px;
+height: 96px;
+margin-left: 790px;
+margin-top: -150px;
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+
+color: #FFFFFF;
+
+}
+
+.SmallContent1{
+width: 492px;
+height: 48px;
+margin-left: 790px;
+margin-top: 30px;
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+}
+
+.InFormResponsive{
+    display: none;
+}
+
+.SectionBtn{
+
+width: 107px;
+height: 30px;
+margin-left: 790px;
+margin-top: 10px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 150%;
+text-decoration-line: underline;
+color: #FFFFFF;
+cursor: pointer;
+
+}
+.Icon{
+    margin-left: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+
+.PartOne{
+position: absolute;
+width: 732px;
+height: 479px;
+left: 0px;
+top: 1077px;
+background: #BFE1FF;
+}
+.SubPart{
+position: absolute;
+width: 600px;
+height: 480px;
+left: 0px;
+top: 0px;
+background: #BFE1FF;
+}
+
+.InForm{
+border-radius: 8px;
+margin-left: 34%;
+margin-top: 13%;
+height: 50px;
+width: 350px;
+border: none;
+box-shadow: 0px 2px 30px #7F7F7F;
+text-align: center;
+font-weight: 700;
+}
+
+.InFormBlur{
+    border-radius: 8px;
+    margin-left: 34%;
+    margin-top: 13%;
+    height: 50px;
+    width: 350px;
+    border: none;
+    box-shadow: 0px 2px 30px #7F7F7F;
+    text-align: center;
+    font-weight: 700;
+    opacity: 0.5;
+}
+.Fill{
+    position: absolute;
+width: 496px;
+height: 60px;
+left: 815px;
+top: 170px;
+font-family: Roboto;
+font-weight: 900;
+font-size: 40px;
+line-height: 150%;
+display: flex;
+align-items: flex-end;
+color: #000000;
+}
+
+.FillSub{
+position: absolute;
+width: 394px;
+height: 72px;
+left: 815px;
+top: 282px;
+font-family: Roboto;
+font-style: normal;
+font-weight:500;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+
+}
+.SecIcon{
+    position: absolute;
+margin-left: 150%;
+
+top: 25%;
+bottom: 31.25%;
+
+
+}
+.SecIconSmall{
+    position: absolute;
+margin-left: 152%;
+
+top: 28%;
+bottom: 31.25%;
+
+}
+
+
+.SectionResponseBtn{
+    display: none;
+}
+
+
+@media screen and (max-width: 992px) {
+
+  
+    .SectionParaBig
+{
+    position: absolute;
+    width: 500px;
+height: 90px;
+left: 90px;
+top: 88px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 140%;
+/* or 45px */
+
+text-align: center;
+
+/* High emphasis text */
+
+color: rgba(0, 0, 0, 0.87);
+}
+
+
+
+.SectionParasmall{
+    position: absolute;
+    width: 400px;
+height: 52px;
+left: 90px;
+top: 215px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 17px;
+line-height: 150%;
+/* or 25px */
+
+text-align: center;
+
+
+color: rgba(0, 0, 0, 0.87);
+
+}
+
+
+.SecBtn{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 8px 16px;
+
+position: absolute;
+width: 160px;
+height: 40px;
+left: 170px;
+top: 350px;
+
+/* salmon */
+
+background: #F2707C;
+border-radius: 32px;
+
+}
+
+
+.Section1img{
+position: absolute;
+width: 348px;
+height: 240px;
+left: 16px;
+top: 334px;
+
+background: #FFFFFF;
+
+}
+
+
+.SectionPara{
+    position: absolute;
+width: 500px;
+height: 72px;
+left: 80px;
+top: 0px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 150%;
+/* or 36px */
+
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+
+.SmallContent1{
+    position: absolute;
+width: 327px;
+height: 72px;
+left: 80px;
+top: 120px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+.InFormResponsive{
+    display: flex;
+flex-direction: row;
+text-align: start;
+font-size: 20px;
+padding: 8px 16px;
+display: block;
+position: absolute;
+width: 280px;
+height:40px;
+left: 50px;
+top: 300px;
+border: none;
+background: #FFFFFF;
+border-radius: 50px;
+}
+
+
+.SectionResponseBtn{
+    display: block;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+
+position: absolute;
+width: 54px;
+height: 40px;
+left: 380px;
+top: 300px;
+font-size: 30px;
+color: white;
+cursor: pointer;
+text-align: center;
+background: #4E3F6B;
+border-radius: 50px;
+
+}
+.SectionBtn{
+    display: none;
+}
+.SectionThree{
+    display:none ;
+}
+
+
+.ResPara{
+    position: absolute;
+width: 327px;
+height: 72px;
+left: 80px;
+top: 1100px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 31px;
+line-height: 150%;
+/* or 36px */
+
+
+/* High emphasis text */
+
+color: rgba(0, 0, 0, 0.87);
+
+}
+
+
+.ResSec{
+    position: absolute;
+width: 400px;
+height: 272px;
+left: 50px;
+top: 1260px;
+
+background: #BFE1FF;
+}
+.Btn{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 94px;
+height: 32px;
+left: 18px;
+top: 19px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+
+.Btn1{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 94px;
+height: 32px;
+left: 250px;
+top: 19px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+
+.Btn2{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 150px;
+height: 32px;
+left: 140px;
+top: 80px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+.Btn3{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 94px;
+height: 32px;
+left: 50px;
+top: 150px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+.Btn4{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 120px;
+height: 32px;
+left: 250px;
+top: 150px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+.Btn5{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 99px;
+height: 32px;
+left: 210px;
+top: 230px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+.Btn6{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 94px;
+height: 32px;
+left: 10px;
+top: 230px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    
+    
+    .SectionParaBig
+{
+    position: absolute;
+width: 338px;
+height: 90px;
+left: 90px;
+top: 88px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 140%;
+/* or 45px */
+
+text-align: center;
+
+/* High emphasis text */
+
+color: rgba(0, 0, 0, 0.87);
+}
+
+.SectionParasmall{
+    position: absolute;
+width: 329px;
+height: 52px;
+left: 90px;
+top: 215px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 17px;
+line-height: 150%;
+/* or 25px */
+
+text-align: center;
+
+
+color: rgba(0, 0, 0, 0.87);
+
+}
+
+
+.SecBtn{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 8px 16px;
+
+position: absolute;
+width: 160px;
+height: 40px;
+left: 170px;
+top: 350px;
+
+/* salmon */
+
+background: #F2707C;
+border-radius: 32px;
+
+}
+
+
+.Section1img{
+position: absolute;
+width: 100%;
+height: 240px;
+left: 16px;
+top: 334px;
+
+background: #FFFFFF;
+
+}
+
+.SectionPara{
+    position: absolute;
+width: 80%;
+box-sizing: border-box;
+height: 72px;
+left: 80px;
+top: 0px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 150%;
+/* or 36px */
+
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+
+.SmallContent1{
+    position: absolute;
+    width: 80%;
+    box-sizing: border-box;
+height: 72px;
+left: 80px;
+top: 120px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+.InFormResponsive{
+    display: flex;
+flex-direction: row;
+text-align: start;
+font-size: 20px;
+padding: 8px 16px;
+display: block;
+position: absolute;
+width: 50%;
+box-sizing: border-box;
+height:40px;
+left: 50px;
+top: 300px;
+border: none;
+background: #FFFFFF;
+border-radius: 50px;
+}
+
+
+.SectionResponseBtn{
+    display: block;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+
+position: absolute;
+width: 20%;
+box-sizing: border-box;
+height: 40px;
+left: 380px;
+top: 300px;
+font-size: 30px;
+color: white;
+cursor: pointer;
+text-align: center;
+background: #4E3F6B;
+border-radius: 50px;
+
+}
+.SectionBtn{
+    display: none;
+}
+.SectionThree{
+    display:none ;
+}
+
+
+.ResPara{
+    position: absolute;
+width: 327px;
+height: 72px;
+left: 80px;
+top: 1100px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 31px;
+line-height: 150%;
+/* or 36px */
+
+
+/* High emphasis text */
+
+color: rgba(0, 0, 0, 0.87);
+
+}
+
+
+.ResSec{
+    position: absolute;
+width: 400px;
+height: 272px;
+left: 50px;
+top: 1260px;
+
+background: #BFE1FF;
+}
+.Btn{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 94px;
+height: 32px;
+left: 18px;
+top: 19px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+
+.Btn1{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 94px;
+height: 32px;
+left: 250px;
+top: 19px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+
+.Btn2{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 150px;
+height: 32px;
+left: 140px;
+top: 80px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+.Btn3{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 94px;
+height: 32px;
+left: 50px;
+top: 150px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+.Btn4{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 120px;
+height: 32px;
+left: 250px;
+top: 150px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+.Btn5{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 99px;
+height: 32px;
+left: 210px;
+top: 230px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+.Btn6{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+
+position: absolute;
+width: 94px;
+height: 32px;
+left: 10px;
+top: 230px;
+border: none;
+color: white;
+background: #84B5F3;
+border-radius: 25px;
+}
+
+.SectionMenu{
+    width: 100%;
+   
+}
+
+
+
+}

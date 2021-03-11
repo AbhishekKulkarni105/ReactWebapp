@@ -1,0 +1,626 @@
+body{
+    margin: 0%;
+}
+
+.LandSectionOne{
+    position: absolute;
+width: 100%;
+box-sizing: border-box;
+height: 608px;
+left: 0px;
+top: 1556px;
+background: #FFE4E7;
+}
+.Icon{
+    position: absolute;
+    left: 10%;
+    right: 58.33%;
+    top: 30%;
+    bottom: 39.58%;
+    
+ 
+}
+
+.ResH{
+    display: none;
+}
+.Icon1{
+    position: absolute;
+    left: 12%;
+    right: 45.83%;
+    top: 32%;
+    bottom: 31.25%;
+ 
+}
+.Icon2{
+    position: absolute;
+    left: 12%;
+    right: 25%;
+    top: 28%;
+    bottom: 25%;
+ 
+}
+
+.ParaBig{
+position: absolute;
+width: 496px;
+height: 60px;
+left: 90px;
+top: 200px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 150%;
+display: flex;
+align-items: center;
+color: #000000;
+
+}
+.ResImg{
+    display: none;
+}
+.ParaSmall{
+    position: absolute;
+width: 496px;
+height: 180px;
+left: 90px;
+top: 290px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+}
+
+.BannerBlock{
+    position: absolute;
+   
+}
+
+.SmallBlock{
+    position: absolute;
+width: 328px;
+height: 400px;
+left: 136px;
+top: 40px;
+background: #39060D;
+border-radius: 14.2857px;
+
+}
+.LeftBanner{
+    overflow:hidden;
+ width: 600px;
+height: 480px;
+margin-left:54%;
+margin-top:9%;
+background: #FFE4E7;
+}
+.Left{
+    position:relative;
+ width: 400px;
+height: 340px;
+
+top: 105px;
+left:-290px;
+background: black;
+}
+.Img{
+    position:relative;
+    width: 227px;
+  height: 196px;
+  left: -192px;
+  top: -200px;
+  
+  background: url('https://www.premiumhub.site/wp-content/uploads/2021/03/Image-1.png');
+}
+.CenterBanner{
+    position: absolute;
+    width: 328px;
+    height: 400px;
+    left: 860px;
+    top: 180px;
+    
+    background: #39060D;
+    border-radius: 14.2857px;
+      overflow:hidden;
+}
+.SubBan{
+    
+  position: absolute;
+  width: 398px;
+  height: 272px;
+  left: 0px;
+  top: 0px;
+  
+  background: linear-gradient(180deg, rgba(57, 6, 13, 0) 47.91%, #39060D 104.67%), url('https://www.premiumhub.site/wp-content/uploads/2021/03/Rectangle.png');
+}
+.RightBan{
+    
+  position: absolute;
+  width: 80px;
+  height: 320px;
+  right:0px;
+  top: 230px;
+  
+  background: #030304;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.LandSectionTwo{
+    position: absolute;
+width: 100%;
+box-sizing: border-box;
+height: 480px;
+left: 0px;
+top: 2164px;
+
+background: #F7F3FF;
+
+}
+
+.LeftSec{
+   
+width: 600px;
+height: 480px;
+margin-left: 80px;
+
+background: #F7F3FF;
+}
+.Card{
+width: 400px;
+margin-left: 15%;
+margin-top: 10%;
+box-shadow: 12px 12px 20px #ccc;
+border-radius: 10px;
+cursor: pointer;
+}
+.CardSmall{
+    justify-content: space-between;
+}
+
+.SmallCard{
+   position: absolute;
+width: 100px;
+height: 58.39px;
+left: 130px;
+top: 356.5px;
+background-image: url('https://www.bajajfinservmarkets.in/content/dam/bajajfinserv/banner-website/supercard/World-Plus-SuperCard.png');
+background-size: cover;
+border-radius: 10px;
+box-shadow: 0px 10px 15px #ccc;
+cursor: pointer;
+}
+.SmallCard1{
+    position: absolute;
+ width: 100px;
+ top: 356.5px;
+ height: 58.39px;
+ left: 540px;
+ background-image: url('https://www.53.com/content/dam/fifth-third/brand/card/cc-secured.jpg');
+ background-size: cover;
+ border-radius: 10px;
+ box-shadow: 0px 10px 15px #ccc;
+ cursor: pointer;
+}
+ .SmallCard2{
+    position: absolute;
+    width: 100px;
+ height: 58.39px;
+ left: 400px;
+ top: 356.5px;
+ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsjlgF4Y12O4cj2tmApm50nwD_DfT9WWQIDA&usqp=CAU');
+ background-size: cover;
+ border-radius: 10px;
+ box-shadow: 0px 10px 15px #ccc;
+}
+ .SmallCard3{
+    position: absolute;
+ width: 100px;
+ height: 58.39px;
+ left: 260px;
+ top: 356.5px;
+ background-image: url('https://www.nab.com.au/business/business-credit-cards/benefits/_jcr_content/root/section_container/responsivegrid/responsivegrid/image.coreimg.95.1024.png/1600152208269/nab-rewards-business-signature-card357x225.png');
+background-size: cover;
+box-shadow: 0px 10px 15px #ccc;
+border-radius: 10px;
+}
+.Roller{
+margin-left: 120%;
+margin-top: -220px;
+color: silver;
+font-size: 30px;
+}
+
+.Para{
+    position: absolute;
+width: 495px;
+height: 60px;
+left: 790px;
+top: 152px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 150%;
+display: flex;
+align-items: flex-end;
+color: #000000;
+
+}
+
+.Small{
+    position: absolute;
+width: 495px;
+height: 180px;
+left: 790px;
+top: 235px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
+}
+.SubLandSectionT {
+    position: absolute;
+    width: 808px;
+    height: 444px;
+    left: 316px;
+    top: 2724px;
+    
+    }
+    
+
+.Heading{
+    position: absolute;
+width: 75px;
+height: 48px;
+left:300px ;
+top: 0px;
+font-family: Roboto;
+font-weight: 900;
+font-size: 32px;
+line-height: 150%;
+color: #000000;
+
+    
+}
+.SubHeading{
+    position: absolute;
+    width: 255px;
+    height: 32px;
+    left: 0px;
+    top: 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    
+    
+    color: #F2707C;
+}
+
+.Drop{
+position: absolute;
+left: 99%;
+top: 180px;
+color:#F2707C ;
+font-size: 25px;
+cursor: pointer;
+
+}
+.Drop:hover + .ParaFa{
+    display: block;
+    
+    
+}
+.ParaFa:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.ParaFa{
+display: none;
+position: absolute;
+width: 808px;
+height: 60px;
+left: 0px;
+top: 210px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+
+color: rgba(0, 0, 0, 0.87);
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+
+}
+
+.solid{
+  
+    border-bottom: 3px solid #bbb;
+}
+.Divider{
+    
+    position: absolute;
+    height: 0px;
+    top: 280px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    
+    opacity: 0.4;
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    box-sizing: border-box;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+.SubHeading1{
+    position: absolute;
+    width: 251px;
+    height: 32px;
+    left: 0px;
+    top: 300px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 32px;
+    color: #F2707C;
+}
+
+.Drop1{
+    position: absolute;
+    left: 99%;
+    top: 313px;
+    color:#F2707C ;
+    font-size: 25px;
+    cursor: pointer;
+}
+.Divider1{
+    position: absolute;
+    height: 0px;
+    top: 400px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    
+    opacity: 0.4;
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    box-sizing: border-box;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+
+.SubHeading2{
+    position: absolute;
+width: 304px;
+height: 32px;
+left: 0px;
+top: 420px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+
+color: #F2707C;
+}
+
+
+.Drop2{
+    position: absolute;
+    left: 99%;
+    top: 430px;
+    color:#F2707C ;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.Divider3{
+    position: absolute;
+    height: 0px;
+    top: 500px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    
+    opacity: 0.4;
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    box-sizing: border-box;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.SubHeading3{
+    position: absolute;
+    width: 363px;
+    height: 32px;
+    left: 0px;
+    top: 540px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    
+    
+    color: #F2707C;
+ 
+}
+
+
+.Drop3{
+    position: absolute;
+    left: 99%;
+    top: 560px;
+    color:#F2707C ;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.Divider4{
+    position: absolute;
+    height: 0px;
+    top: 590px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    
+    opacity: 0.4;
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    box-sizing: border-box;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+.LandSectionOne{
+    position: absolute;
+    width: 80%;
+box-sizing: border-box;
+    height: 272px;
+    left: 55px;
+    top: 1700px;
+    background: #FFE4E7;
+}
+.ResImg{
+    width: 100%;
+    display: block;
+}
+.Res{
+    display: none;
+}
+
+.ParaRes{
+    position: absolute;
+width: 100%;
+height: 21px;
+left: 50px;
+top: 1550px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 21px;
+/* identical to box height */
+
+
+/* High emphasis text */
+
+color: rgba(0, 0, 0, 0.87);
+}
+
+.ParaSmallRes{
+    position: absolute;
+    width: 90%;
+    height: 21px;
+    left: 50px;
+    top: 1600px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    /* High emphasis text */
+    
+    color: rgba(0, 0, 0, 0.87);
+}
+.SubLandSectionT{
+    width:347px;
+    position: absolute;
+    left: 50px;
+}
+.Heading{
+    width: 347px;
+    position: absolute;
+    left: 150px;
+}
+
+
+.Roller{
+    display: none;
+
+}
+
+.CardSmall{
+    
+}
+.SmallCard{
+    margin-left: -80px;
+    width: 90px;
+    height: 50px;
+    margin-top: -80px;
+}
+.SmallCard1{
+    display: none;
+}
+.SmallCard2{
+    margin-left: -80px;
+    width: 90px;
+    height: 50px;
+    margin-top: -80px;
+}
+.SmallCard3{
+    margin-left: -80px;
+    width: 90px;
+    height: 50px;
+    margin-top: -80px;
+}
+
+.Para{
+    display: none;
+}
+.Small{
+    display: none;
+}
+.LandSectionTwo{
+    width: 100%;
+    box-sizing: border-box;
+  
+}
+.Card{
+    width: 250px;
+    margin-left: 120px;
+    
+}
+.LeftSec{
+    width: 90%;
+    box-sizing: border-box;
+    margin-left: 30px;
+    height: 400px;
+}
+
+
+
+}

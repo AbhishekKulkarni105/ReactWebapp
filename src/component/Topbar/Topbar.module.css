@@ -1,0 +1,181 @@
+body{
+    margin: 0px;
+}
+
+
+.Topbar{
+    
+    height: 100px;
+    padding: 0 48px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+.Logo{
+height: 49px;
+width: 135px;
+margin-left: 108px;
+margin-top: 27px;
+border-radius: 0px;
+cursor: pointer;
+}
+.Title
+{
+position: absolute;
+width: 87px;
+height: 21px;
+margin-left:-104px;
+margin-top: 43px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 21px;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+
+
+.Menu1{
+ position:absolute;
+width: 125px;
+height: 24px;
+left: 796px;
+top: 40px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+color: #262A2F;
+
+}
+.Menu2{
+    position: absolute;
+width: 122px;
+height: 24px;
+left: 961px;
+top: 40px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+color: #262A2F;
+}
+
+.Menu3{
+position: absolute;
+width: 38px;
+height: 24px;
+left: 1123px;
+top: 40px;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+color: #262A2F;
+}
+
+
+.Menu1:hover {
+ text-decoration: orange  underline;
+ 
+}
+
+.Btn{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px;
+position: absolute;
+width: 131px;
+height: 40px;
+left: 1185px;
+top: 32px;
+background: #F2707C;
+border-radius: 4px;
+color: white;
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+border: solid #F2707C;
+font-size: 15px;
+cursor: pointer;
+}
+.Icon{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .Logo{
+    
+
+
+height: 49px;
+width: 135px;
+margin-left: 20px;
+margin-top: 27px;
+border-radius: 0px;
+cursor: pointer;
+
+    }
+
+    .Icon{
+        position: absolute;
+left: 90%;
+top: 40%;
+bottom: 50%;
+display: block;
+border: 2px  #000000;
+cursor: pointer;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .Logo{
+    
+        height: 49px;
+        width: 135px;
+        margin-left: 20px;
+        margin-top: 27px;
+        border-radius: 0px;
+        cursor: pointer;
+        
+            }
+        
+            .Icon{
+                position: absolute;
+        left: 90%;
+        top: 40%;
+        bottom: 50%;
+        display: block;
+        border: 2px  #000000;
+        cursor: pointer;
+            }
+
+
+
+            .Menu1{
+                display: none;
+            }
+            .Menu2{
+                display: none;
+            }
+            .Menu3{
+                display: none;
+            }
+  }

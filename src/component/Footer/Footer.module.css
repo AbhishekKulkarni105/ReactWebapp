@@ -1,0 +1,305 @@
+
+.MainFooter{
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    height: 600px;
+    left: 0px;
+    top: 3248px;
+    
+    background: #12193B;
+}
+.Heading{
+    position: absolute;
+width: 313px;
+height: 73px;
+left: 540px;
+top: 30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 40px;
+/* or 125% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.SmHeading{
+    position: absolute;
+    width: 313px;
+    height: 73px;
+    left: 50px;
+    top: 39px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.Btn{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 40px;
+
+position: absolute;
+width: 155px;
+height: 43px;
+left: 600px;
+top: 220px;
+border: none;
+font-weight: 900;
+color: white;
+font-family:  Roboto;
+background: #7C7EB5;
+border-radius: 46px;
+}
+
+.Divider3{
+    position: absolute;
+    width: 91%;
+    box-sizing: border-box;
+    height: 0px;
+    left: 108px;
+    top: 350px;
+    
+    opacity: 0.5;
+    /* White */
+    
+    border: 1px solid #FFFFFF;
+    
+}
+
+.FooterMenu{
+    position: absolute;
+width: 138px;
+width: 180px;
+left: 112px;
+top: 340px;
+padding: 60px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+color: #FFFFFF;
+}
+
+.FooterMenu1{
+    position: absolute;
+    width: 180px;
+height: 24px;
+left: 400px;
+top: 340px;
+padding: 60px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+color: #FFFFFF;
+}
+
+
+.FooterMenu2{
+    position: absolute;
+    width: 180px;
+height: 24px;
+left: 700px;
+top: 340px;
+padding: 60px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+color: #FFFFFF;
+}
+
+
+.FooterMenu3{
+    position: absolute;
+width: 180px;
+height: 24px;
+left: 1000px;
+top: 340px;
+padding: 60px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+
+color: #FFFFFF;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+.Heading{
+    position: absolute;
+width: 313px;
+height: 48px;
+left: 100px;
+top: 100px;
+
+font-family: Helvetica Neue;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.MainFooter{
+    position: absolute;
+width: 480px;
+height: 100vh;
+left: 0px;
+top: 3402px;
+
+/* navy blue */
+
+background: #12193C;
+}
+
+.Btn{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 8px 16px;
+
+position: absolute;
+width: 160px;
+height: 40px;
+left: 150px;
+top: 260px;
+
+background: #7C7EB5;
+border-radius: 32px;
+}
+
+.Divider3{
+    position: absolute;
+width: 328px;
+height: 0px;
+left: 60px;
+top: 340px;
+
+opacity: 0.5;
+/* White */
+
+border: 1px solid #FFFFFF;
+
+}
+
+.ResFoo{
+    display: none;
+}
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .Heading{
+        position: absolute;
+    width: 313px;
+    height: 48px;
+    left: 100px;
+    top: 100px;
+    
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    }
+    
+    .MainFooter{
+        position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 3402px;
+    
+    /* navy blue */
+    
+    background: #12193C;
+    }
+    
+    .Btn{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 16px;
+    
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 150px;
+    top: 260px;
+    
+    background: #7C7EB5;
+    border-radius: 32px;
+    }
+    
+    .Divider3{
+        position: absolute;
+    width: 328px;
+    height: 0px;
+    left: 60px;
+    top: 340px;
+    
+    opacity: 0.5;
+    /* White */
+    
+    border: 1px solid #FFFFFF;
+    
+    }
+    
+    .ResFoo{
+        display: none;
+    }
+    
+
+
+}
